@@ -1,0 +1,90 @@
+@media only screen and (min-width: 720px) {
+    .x2-break-lg { display: grid; }
+}
+
+.hide-perm {display: none!important;}
+/* nv bar */
+.nav-bar {border-bottom: 1px solid gainsboro; width: 100%; box-shadow: 0px 3px 3px #d0d0d0}
+
+.grid-2x { display: grid; grid-template-columns: repeat(2, 1fr);}
+.grid-2x-2a-3b { display: grid; grid-template-columns: 1fr 2fr;}
+.grid-3x-1a-1b-1c { display: grid; grid-template-columns: repeat(3, 1fr);}
+.flex { display: flex; flex-direction: row; flex-wrap: wrap;}
+.gap-1 {gap: 10px}
+.gap-2 {gap: 20px}
+.gap-3 {gap: 30px}
+
+
+/* Background colors */
+.bg-primary {background-color: royalblue;}
+.bg-default {background-color: silver;}
+.bg-light {background-color: #ffff;}
+.bg-dark {background-color: black;}
+
+.text-light {color: #fff}
+.text-primary {color: royalblue;}
+.text-black {color: black;}
+.text-20 {font-size: 20px;}
+
+.text-center {text-align: center;}
+
+.text-small {font-size: small;}
+.text-smaller {font-size: smaller;}
+
+/* Border radius */
+.r-5 {border-radius: 5px;}
+.r-10 {border-radius: 10px;}
+.r-15 {border-radius: 15px;}
+.r-20 {border-radius: 20px;}
+
+/* border */
+.border-light-1 {border: 1px solid gainsboro;}
+.border-light-2 {border: 2px solid gainsboro;}
+.border-dark-1 {border: 1px solid gray;}
+.border-dark-2 {border: 2px solid gray;}
+.border-bott {border-bottom: 1px solid gainsboro;}
+
+/* padding */
+.p-1 {padding: 10px;}
+.p-2 {padding: 20px}
+.p-3 {padding: 30px}
+.p-4 {padding: 40px}
+
+/* tabs */
+.light-tabs {border: 1px solid gainsboro; color: gray; background-color: #ffff;}
+.light-tabs:hover { color: white; background-color: royalblue;}
+
+/* shadow */
+.shadow-bott {box-shadow: 0px 5px 5px red;}
+
+/* cursor */
+.pointer {cursor: pointer;}
+
+/* width */
+.fit-content {width: fit-content;}
+
+/* margin */
+.mt-1 {margin-top: 10px}
+.mt-2 {margin-top: 20px}
+.mt-3 {margin-top: 30px}
+.mt-4 {margin-top: 40px}
+.mt-5 {margin-top: 50px}
+.mb-1 {margin-bottom: 10px}
+.mb-2 {margin-bottom: 20px}
+.mb-3 {margin-bottom: 30px}
+.mb-4 {margin-bottom: 40px}
+.mb-5 {margin-bottom: 50px}
+.m-auto {margin-left: auto; margin-right: auto;}
+
+/* boxes */
+.alert-box {position: fixed; left: calc(50vw - 75px); top: calc(50vh - 100px);}
+.queue-item {font-size: small; height: 250px;}
+.slot-text {font-size: small; font-weight: bold; color: blue; padding: 5px; background-color: white; margin-bottom: 20px;}
+.drop-box {margin-top:100px; box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; width:200px; height: 200px; overflow: auto; background-color: #e8e8e8;}
+.drop-box .dropable {font-size: 12px; background-color:salmon; box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; margin-bottom: 40px; border-radius: 10px;}
+
+/* width */
+.w-150 {width: 150px}
+.w-200 {width: 200px}
+.w-250 {width: 250px}
+.w-300 {width: 300px}
